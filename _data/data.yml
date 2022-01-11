@@ -1,108 +1,124 @@
-name: John Doe
-support_dark_mode: true
-fork: true
+name: Semyon Ivanov
+title: Software Engineer
+fork: false
 
 # Sidebar
 contact:
-  email: info@johndoe.com
-  github: johndoe
-  linkedin: johndoe
-  phone: 
-  gitlab: 
-  twitter: 
+  email: me@semyon.dev
+  telegram: semyon0
+  github: semyon2105
+  linkedin: semyon-ivanov-26591880
 
 languages:
-  - idiom: English
-  - idiom: Russian
-  - idiom: French
+  - idiom: Russian (native)
+  - idiom: English (C1)
 
 education:
-  - degree: MSc in Informatics
-    time: 2014-2016
-    university: Ionian University
-
-  - degree: BSc in Computer Science
-    time: 2010-2014
-    university: Ionian University
 
 skills:
   - category: Backend
-    skill: 
-      - Go
-      - Rust
-  - category: Frontend
     skill:
-      - React
-      - Typescript
+      - .NET
+      - C#
+      - F#
+      - Rust
+      - PostgreSQL
+      - MongoDB
+      - Kafka
+
   - category: DevOps
     skill:
-      - Docker
-      - Kubernetes 
+      - Linux
+      - Kubernetes
+      - ELK
+      - Prometheus
+      - AWS
+      - CI/CD
+
+  - category: Frontend
+    skill:
+      - Typescript
+      - React
+      - Webpack
 
 # Profile
 profile: |
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-  fugiat nulla pariatur.
+  Full stack software engineer with more than 5 years of experience in webdev.
+  Specialize in backend development, platform engineering and DevOps.
 
 # Experience
 experience:
-  - role: Software Engineer
-    time: 2020-Present
-    company: Google
-    details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-      fugiat nulla pariatur.
+  - company: Smartcat
+    roles:
+      - title: Senior Software Engineer
+        time: Feb 2020 – Present
+        details:
+          - |
+            Infrastructure (platform) team engineer. Continuously improving performance and stability of Smartcat,
+            the cloud-based translation delivery system.
+          - |
+            Took major part in planning and performing a large-scale migration of the whole codebase
+            from .NET Framework to .NET Core services running in Kubernetes.
+            The migration was lenghty but seamless, with little impact on user experience and dev team velocity.
+          - |
+            Designed and implemented a library that provides reliable asynchronous messaging capabilities to internal services using Apache Kafka.
+          - |
+            Implemented availability monitoring and observability for several subsystems of Smartcat using Prometheus and Grafana.
     technologies_used: | 
-      Go, Angular, Typescript, C++
-  
-  - role: Researcher
-    time: 2016-2020
-    company: Microsoft
-    details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-      fugiat nulla pariatur.
+      .NET, C#, MongoDB, PostgreSQL, Elasticsearch, Kafka, Typescript, Vue, Kubernetes, AWS
+
+  - company: Sber Solutions
+    roles:
+      - title: Senior Software Engineer
+        time: Feb 2019 – Jan 2020
+        details: |
+          Full stack development of an HR management system web application.
+          Performed planning and decomposition of tasks for other engineers.
+          Set up and maintained project's CI/CD pipelines, staging and production environments.
     technologies_used: | 
-      Python, Tensorflow, Keras, Matlab
+      .NET Core, C#, SQL Server, Redis, Javascript, React
+
+  - company: Storiqa
+    roles:
+      - title: Software Engineer
+        time: Oct 2018 – Feb 2019
+        details:
+          - |
+            Participated in backend development of a marketplace web application consisting of a few Rust microservices.
+          - |
+            Implemented several features in delivery and billing services.
+    technologies_used: | 
+      Rust (Tokio stack), GraphQL, PostgreSQL, Redis, Kubernetes, AWS
+
+  - company: Kaspersky Lab
+    roles:
+      - title: Software Engineer
+        time: Apr 2018 – Sep 2018
+        details:
+          - |
+            Refined architecture of the publication management system and its continuous delivery system
+            to allow for more configurability and flexibility of the product launches. This led to more products
+            being moved to the automatic publication flow.
+          - |
+            Developed a new UI for the publication management system using Typescript and React.
+      - title: Junior Software Engineer
+        time: Jul 2017 – Mar 2018
+        details:
+          - |
+            Developed a continuous delivery feature in the publication management system
+            which enabled the company to carry out automatic publications of its frontline B2C products.
+            Use of this instrument greatly reduced time to launch a new version of a software product, minimized manual labor and mostly eliminated human errors.
+      - title: Software Engineering Intern
+        time: Jul 2016 – Jun 2017
+        details: |
+          Implemented various testing utilities, Selenium tests and a few internal services.
+          Took part in designing and implementing features in the publication management system
+          used to publish most of the company's software products.
+    technologies_used: |
+      .NET Framework, C#, F#, SQL Server, Javascript, Typescript, Angular.JS, React
 
 publications:
-  - title: Random title of paper. An interesting one.
-    link: "#"
-    authors: John E. Doe
-    conference: Some conference, 2016
-
-  - title: Second title of paper. An interesting one too.
-    link: "#"
-    authors: John E. Doe
-    conference: Some conference again, 2018
 
 projects:
-  - title: Cool Project 
-    link: #
-    details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua.
 
-  - title: Cool Project 
-    link: #
-    details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua.
-
-# Volunteering
 volunteering:
-  - time: 2020-Present
-    role: PR Manager
-    company: Some random organization
-    details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 

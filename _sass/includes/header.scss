@@ -9,6 +9,10 @@
         font-weight: bolder;
         text-transform: uppercase;
     }
+    .subtitle {
+        color: var(--fg-color-title-sm);
+        font-weight: normal;
+    }
     input[type="checkbox"] {
         width: 0;
         height:0;
@@ -17,6 +21,5 @@
     label {
         cursor: pointer;
         color: var(--fg-color-dark);
-        
     }
 }
