@@ -2,7 +2,8 @@ name: Semyon Ivanov
 title: Software Engineer
 fork: false
 
-# Sidebar
+location: Russia, Moscow region
+
 contact:
   email: me@semyon.dev
   telegram: semyon0
@@ -115,7 +116,7 @@ experience:
           Took part in designing and implementing features in the publication management system
           used to publish most of the company's software products.
     technologies_used: |
-      .NET Framework, C#, F#, SQL Server, Javascript, Typescript, Angular.JS, React
+      .NET Framework, C#, F#, SQL Server, RabbitMQ, Javascript, Typescript, Angular.JS, React
 
 publications:
 
