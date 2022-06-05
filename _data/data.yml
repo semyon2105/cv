@@ -27,7 +27,7 @@ skills:
       - MongoDB
       - Kafka
 
-  - category: DevOps
+  - category: SRE
     skill:
       - Linux
       - Kubernetes
@@ -44,15 +44,15 @@ skills:
 
 # Profile
 profile: |
-  Full stack software engineer with more than 5 years of experience in webdev.
-  Specialize in backend development, platform engineering and DevOps.
+  Full stack software engineer with more than 6 years of experience in web development and distributed systems engineering.
+  Specialize in backend development and SRE.
 
 # Experience
 experience:
   - company: Smartcat
     roles:
       - title: Senior Software Engineer
-        time: Feb 2020 – Present
+        time: Feb 2020 – Jun 2022
         details:
           - |
             Infrastructure (platform) team engineer. Continuously improving performance and stability of Smartcat,
