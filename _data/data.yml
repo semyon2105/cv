@@ -2,17 +2,17 @@ name: Semyon Ivanov
 title: Software Engineer
 fork: false
 
-location: Russia, Moscow region
+location: Belgrade, Serbia
 
 contact:
   email: me@semyon.dev
-  telegram: semyon0
   github: semyon2105
   linkedin: semyon-ivanov-26591880
 
 languages:
   - idiom: Russian (native)
   - idiom: English (C1)
+  - idiom: Serbian (A2)
 
 education:
 
@@ -26,29 +26,37 @@ skills:
       - PostgreSQL
       - MongoDB
       - Kafka
+      - Azure Data Explorer (Kusto)
 
-  - category: SRE
+  - category: DevOps
     skill:
-      - Linux
-      - Kubernetes
-      - ELK
-      - Prometheus
+      - Cloud-native engineering
+      - Platform engineering
       - AWS
-      - CI/CD
+      - Azure
+      - Kubernetes
+      - Linux
 
   - category: Frontend
     skill:
       - Typescript
       - React
-      - Webpack
+      - SPA build systems
+      - ASP.NET MVC / Razor pages
 
 # Profile
 profile: |
-  Full stack software engineer with more than 6 years of experience in web development and distributed systems engineering.
+  Full stack software engineer with more than 7 years of experience in web development and distributed systems engineering.
   Specialize in backend development and SRE.
 
 # Experience
 experience:
+  - company: Microsoft
+    roles:
+      - title: Software Engineer II
+        time: Aug 2022 - Present
+    technologies_used: |
+      Azure, .NET, C#, Typescript, SQL Server, Kusto
   - company: Smartcat
     roles:
       - title: Senior Software Engineer
