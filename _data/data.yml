@@ -54,7 +54,7 @@ experience:
   - company: Microsoft
     roles:
       - title: Software Engineer II
-        time: Aug 2022 - Present
+        time: Aug 2022 – Present
     technologies_used: |
       Azure, .NET, C#, Typescript, SQL Server, Kusto
   - company: Smartcat
